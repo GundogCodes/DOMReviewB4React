@@ -40,15 +40,24 @@ body{
 }
 
 #plus{
-    background-color: greenyellow;
+    background-color:#c5fad5;
 }
 
 #minus{
     background-color: rgb(255, 163, 181);
+    color:white;
 }
 
 #incrementAmount{
     padding: 20px;
     border-radius: 15px;
     font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+
+p:hover{
+    font-size: 30px;
+    transition: 5s;
 }
