@@ -9,18 +9,27 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: cyan;
+    background-color:#6883bc;
     padding:25px;
     border-radius: 50px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
 #title{
     font-size: 100px;
-    color:rgb(251, 4, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    background-color:   rgb(255, 163, 181);
 }
 
 #count{
     font-size: 80px;
+    padding:25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    background-color: #c5fad5;
 }
 
 .button{

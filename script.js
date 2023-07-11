@@ -19,7 +19,7 @@ function handlePlusClick(){
     if(currentCount<0){
         count.style.color = 'red'
     } else if(currentCount>0){
-        count.style.color ='black' 
+        count.style.color ='white' 
     }
     count.innerText = currentCount
 }
@@ -32,7 +32,7 @@ function handleMinusClick(){
     if(currentCount<0){
         count.style.color = 'red'
     } else if(currentCount>0){
-        count.style.color ='black' 
+        count.style.color ='white' 
     }
     count.innerText = currentCount
 }
